@@ -15,6 +15,7 @@
 		282CA22624994E9700F7C328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282CA22424994E9700F7C328 /* LaunchScreen.storyboard */; };
 		282CA22F24994FD100F7C328 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CA22E24994FD100F7C328 /* Filme.swift */; };
 		282CA233249A586100F7C328 /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CA232249A586100F7C328 /* FilmeCelula.swift */; };
+		282CA23D249AF90200F7C328 /* ViewRedonda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CA23C249AF90200F7C328 /* ViewRedonda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		282CA22724994E9700F7C328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282CA22E24994FD100F7C328 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
 		282CA232249A586100F7C328 /* FilmeCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		282CA23C249AF90200F7C328 /* ViewRedonda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRedonda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 				282CA22D24994EA200F7C328 /* Essentials */,
 				282CA235249A5BC700F7C328 /* home */,
 				282CA234249A5B4D00F7C328 /* Model */,
-				282CA21F24994E9500F7C328 /* Main.storyboard */,
+				282CA23E249AF96800F7C328 /* Utility */,
 				282CA22424994E9700F7C328 /* LaunchScreen.storyboard */,
+				282CA21F24994E9500F7C328 /* Main.storyboard */,
 				282CA22724994E9700F7C328 /* Info.plist */,
 			);
 			path = listFilmes;
@@ -95,6 +98,14 @@
 				282CA21D24994E9500F7C328 /* ViewController.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		282CA23E249AF96800F7C328 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				282CA23C249AF90200F7C328 /* ViewRedonda.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282CA23D249AF90200F7C328 /* ViewRedonda.swift in Sources */,
 				282CA21E24994E9500F7C328 /* ViewController.swift in Sources */,
 				282CA233249A586100F7C328 /* FilmeCelula.swift in Sources */,
 				282CA21A24994E9500F7C328 /* AppDelegate.swift in Sources */,

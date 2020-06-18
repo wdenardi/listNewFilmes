@@ -9,17 +9,19 @@ import UIKit
 
 class Filme{
     
-    var titulo: String!
-    var desc: String!
-    var pais: String!
-    var genero: String!
-    var imagen: UIImage!
+    var titulo: String
+    var desc: String
+    var pais: String
+    var genero: String
+    var imagemFilme: UIImage?
+   
     
-    init(titulo: String,desc: String!,pais: String! ,genero: String!,imagen: UIImage) {
+    init(titulo: String,desc: String,pais: String ,genero: String,imagemFilme: String) {
         self.titulo = titulo
         self.desc = desc
         self.pais = pais
         self.genero = genero
-        self.imagen = imagen
+        self.imagemFilme = UIImage(named: imagemFilme)
+        
     }
 }
