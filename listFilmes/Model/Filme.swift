@@ -13,15 +13,16 @@ class Filme{
     var desc: String
     var pais: String
     var genero: String
-    var imagemFilme: UIImage?
+    var nota: String
+    var imagemFilme: UIImage
    
     
-    init(titulo: String,desc: String,pais: String ,genero: String,imagemFilme: String) {
+    init(titulo: String,desc: String,pais: String ,genero: String,imagemFilme: String,nota: String) {
         self.titulo = titulo
         self.desc = desc
         self.pais = pais
         self.genero = genero
-        self.imagemFilme = UIImage(named: imagemFilme)
-        
+        self.imagemFilme = UIImage(named: imagemFilme)!
+        self.nota = nota
     }
 }
